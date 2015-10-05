@@ -7,8 +7,8 @@ Feature: Adding a contact via an Android App
     Then I click the Save button
 
     Examples: Devices
-      | device_name                |
-      | Android Emulator           | 
-      | Samsung Galaxy S4 Emulator |
+      | device_name               |
+      | Samsung Galaxy S4 Device  | 
+      | Samsung Galaxy S5 Device  |
 
 
