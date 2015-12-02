@@ -21,7 +21,6 @@ def before_scenario(context, scenario):
     "appiumVersion": "1.4.11",
     "deviceOrientation": "portrait"
   }
-  print desired_caps
   context.driver = webdriver.Remote(url, desired_caps)
 
 def after_scenario(context, scenario):
